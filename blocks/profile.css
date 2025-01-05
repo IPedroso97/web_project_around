@@ -1,0 +1,54 @@
+.profile {
+  max-width: 880px;
+  margin: 40px auto 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  border: 2px solid blue;
+}
+.profile__photo {
+  max-width: 120px;
+  border-radius: 50%;
+  margin: 0;
+  margin-right: 30px;
+  grid-area: photo;
+}
+.profile__info {
+  max-width: 373px;
+  font-family: Inter;
+  text-align: left;
+  color: #ffff;
+  margin: 0;
+}
+.profile__info_name {
+  margin: 22px 0 16px;
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 48px; /* alterar responsividade depois*/
+}
+.profile__info_description {
+  max-width: 415px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.78px; /* alterar responsividade depois*/
+  margin: 0;
+}
+.profile__button {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #ffff;
+  padding: 0;
+  background: #000;
+  margin: 37px 0 0;
+  margin-left: 18px;
+}
+.profile__add-button {
+  max-width: 150px;
+  height: 50px;
+  border: 1px solid #ffff;
+  background: #000;
+  padding: 14px 64px;
+  margin: 35px 0 35px;
+  margin-left: 165px;
+}

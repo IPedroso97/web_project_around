@@ -18,16 +18,20 @@
         <img class="header__logo" src="./images/logo.svg" />
       </header>
       <main class="content">
-        <section class="content__lobby">
-          <div class="profile">
-            <img class="profile__photo" src="./images/cousteau.jpg" />
-            <h2 class="profile__name">Jacques Cousteau</h2>
-            <p class="profile__description">Explorador</p>
-            <button class="profile__button"></button>
+        <section class="profile">
+          <img class="profile__photo" src="./images/cousteau.jpg" />
+          <div class="profile__info">
+            <h2 class="profile__info profile__info_name">Jacques Cousteau</h2>
+            <p class="profile__info profile__info_description">Explorador</p>
           </div>
-          <button class="add-button"></button>
+          <button class="profile__button">
+            <img src="./images/edit.svg" />
+          </button>
+          <button class="profile__add-button">
+            <img src="./images/plus.svg" />
+          </button>
         </section>
-        <section class="images">
+        <section>
           <ul class="grid">
             <li class="grid__images grid__images_yosemite"></li>
             <li class="grid__images grid__images_louise"></li>
