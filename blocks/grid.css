@@ -13,7 +13,7 @@
 .grid__images {
   border-radius: 10px 10px 0 0;
 }
-.card {
+.grid__card {
   max-width: 282px;
   background: rgba(255, 255, 255, 1);
   border-radius: 0 0 10px 10px;
@@ -22,7 +22,7 @@
   align-items: center;
   padding: 25px 0 31px;
 }
-.card__text {
+.grid__text {
   max-width: 246px;
   font-family: Inter;
   font-size: 24px;
@@ -32,11 +32,15 @@
   margin: 0;
   margin-left: 21px;
 }
-.card__button {
+.grid__button {
   max-width: 21px;
   height: 19px;
   padding: 0;
   margin: 0;
   margin-right: 15px;
   border: none;
+}
+.grid__button:hover {
+  cursor: url(../images/click-hover.svg), auto;
+  opacity: 50%;
 }

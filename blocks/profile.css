@@ -34,7 +34,7 @@
   line-height: 21.78px; /* alterar responsividade depois*/
   margin: 0;
 }
-.profile__button {
+.profile__edit {
   width: 24px;
   height: 24px;
   border: 1px solid #ffff;
@@ -42,6 +42,10 @@
   background: #000;
   margin: 37px 0 0;
   margin-left: 18px;
+}
+.profile__edit:hover {
+  cursor: url(../images/click-hover.svg), auto;
+  opacity: 60%;
 }
 .profile__add-button {
   max-width: 150px;
@@ -51,4 +55,8 @@
   padding: 14px 64px;
   margin: 35px 0 35px;
   margin-left: 165px;
+}
+.profile__add-button:hover {
+  cursor: url(../images/click-hover.svg), auto;
+  opacity: 60%;
 }
