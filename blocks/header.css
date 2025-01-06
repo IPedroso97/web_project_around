@@ -8,26 +8,18 @@
 .header__logo {
   max-width: 173px;
 }
-
+@media screen and (max-width: 1024px) {
+  .header {
+    max-width: 768px;
+  }
+}
 @media screen and (max-width: 768px) {
   .header {
-    width: 768px;
-    margin: 42px auto 0;
+    max-width: 768px;
+    margin: 42px 0 0;
   }
   .header__logo {
     max-width: 150px;
-  }
-}
-@media screen and (max-width: 544px) {
-  .header {
-    width: 544px;
-    height: 60px;
-    border-bottom: 1px solid;
-    border-color: rgba(84, 84, 84, 1);
-    margin: 40px 0 0;
-  }
-  .header__logo {
-    max-width: 140px;
   }
 }
 @media screen and (max-width: 320px) {
