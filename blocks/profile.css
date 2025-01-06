@@ -98,21 +98,44 @@
 @media screen and (max-width: 320px) {
   .profile {
     max-width: 320px;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
   }
   .profile__photo {
+    max-width: 120px;
   }
   .profile__info {
+    display: flex;
+    max-width: 282px;
+    text-align: center;
+    flex-flow: row wrap;
+    justify-content: flex-start;
   }
   .profile__info_name {
+    max-width: 224px;
+    font-family: Inter;
+    font-size: 22px;
+    line-height: 26.63px;
+    margin: 30px 10px 14px 48px;
   }
   .profile__info_description {
+    font-size: 14px;
+    line-height: 16.94px;
   }
   .profile__edit {
+    width: 24px;
+    height: 24px;
+    margin: 30px 0 0;
   }
   .profile__edit-image {
   }
   .profile__add-button {
+    width: 282px;
+    padding: 0;
+    margin: 0;
   }
   .profile__add-image {
+    max-width: 16px;
   }
 }
