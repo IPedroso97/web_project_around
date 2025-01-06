@@ -71,6 +71,9 @@
   .profile__photo {
     margin-right: 0;
   }
+  .profile__edit {
+    margin-left: 0;
+  }
   .profile__add-button {
     margin-left: 50px;
   }
@@ -79,13 +82,17 @@
   .profile {
     max-width: 768px;
     margin: 40px 0 0;
+    justify-content: space-evenly;
   }
   .profile__photo {
     max-width: 100px;
     margin-right: 0;
   }
+  .profile__edit {
+    margin-left: 0;
+  }
   .profile__add-button {
-    margin-left: 0px;
+    margin-left: 0;
   }
 }
 @media screen and (max-width: 320px) {
