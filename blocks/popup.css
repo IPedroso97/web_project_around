@@ -1,11 +1,11 @@
 .popup {
   display: none;
   display: flex;
+  width: 100%;
+  height: 100%;
   justify-content: center;
   align-items: center;
   position: fixed;
-  width: 100%;
-  height: 100%;
   background: rgba(0, 0, 0, 0.3);
   margin: 0;
   z-index: 1;
@@ -19,7 +19,7 @@
 }
 .popup__title {
   width: 330px;
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 24px;
   font-weight: 900;
   line-height: 29.05px; /*ajustar responsividade depois*/
@@ -27,11 +27,6 @@
   padding-top: 34px;
   margin: 0 36px 0 64px;
 }
-.popup__body {
-  width: 430px;
-  margin: 0 auto 34px;
-}
-
 .popup__fieldset {
   display: flex;
   flex-flow: column wrap;
@@ -47,14 +42,13 @@
   padding: 0;
   margin: 0;
 }
-
 .popup__input {
   width: 358px;
   height: 27.26px;
   border: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   padding: 0;
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 14px;
   font-weight: 400;
   line-height: 16.94px; /*ajustar responsividade depois*/
@@ -66,7 +60,7 @@
   height: 50.15px;
   padding: 0;
   margin: 0 36px 0;
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 18px;
   font-weight: 400;
   line-height: 21.78px;
@@ -86,18 +80,51 @@
   top: -335px;
   left: 430px;
   width: 40px;
+  object-fit: contain;
   border: none;
   padding: 0;
   margin: 0;
   background: none;
 }
+.popup__close > img {
+  width: 100%;
+}
 .popup__close:hover {
   cursor: url(../images/click-hover.svg), auto;
   opacity: 60%;
 }
-@media screen and (max-width: 1024px) {
-}
-@media screen and (max-width: 768px) {
-}
 @media screen and (max-width: 320px) {
+  .popup__container {
+    max-width: 282px;
+  }
+  .popup__title {
+    max-width: 238px;
+    font-size: 18px;
+    margin: 0 auto;
+    padding-top: 25px;
+  }
+  .popup__fieldset {
+    display: flex;
+    flex-flow: column wrap;
+    width: 238px;
+    border: none;
+    background: rgba(255, 255, 255, 1);
+    row-gap: 30px;
+    padding: 0;
+    margin: 76px auto 46px;
+  }
+  .popup__input {
+    max-width: 238px;
+    font-size: 14px;
+  }
+  .popup__button {
+    max-width: 238px;
+    margin: 0 22px;
+  }
+  .popup__close {
+    position: relative;
+    top: -350px;
+    left: 255px;
+    width: 26px;
+  }
 }
