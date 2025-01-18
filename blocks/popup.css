@@ -24,7 +24,7 @@
   font-family: "Inter";
   font-size: 24px;
   font-weight: 900;
-  line-height: 29.05px; /*ajustar responsividade depois*/
+  line-height: 29.05px;
   text-align: left;
   padding-top: 34px;
   margin: 0 36px 0 64px;
@@ -53,7 +53,7 @@
   font-family: "Inter";
   font-size: 14px;
   font-weight: 400;
-  line-height: 16.94px; /*ajustar responsividade depois*/
+  line-height: 16.94px;
   text-align: left;
   color: rgba(0, 0, 0, 1);
 }

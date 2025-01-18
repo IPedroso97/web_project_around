@@ -6,7 +6,6 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  border: 2px solid pink;
   gap: 20px 17px;
 }
 
@@ -27,7 +26,7 @@
   font-family: Inter;
   font-size: 24px;
   font-weight: 900;
-  line-height: 29.05px; /* alterar responsividade depois*/
+  line-height: 29.05px;
   text-align: left;
   text-overflow: ellipsis;
   white-space: nowrap;
