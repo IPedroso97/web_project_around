@@ -1,6 +1,6 @@
 .footer {
-  max-width: 318px;
-  margin: 67px auto 60px 200px;
+  width: 880px;
+  margin: 67px auto 60px;
 }
 .footer__copyright {
   font-family: Inter;
@@ -11,18 +11,16 @@
   color: rgba(84, 84, 84, 1);
   margin: 0;
 }
-@media screen and (max-width: 1024px) {
-  .footer {
-    margin: 67px auto 60px 70px;
-  }
-}
+
 @media screen and (max-width: 768px) {
   .footer {
-    margin: 67px auto 60px 0;
+    width: 583px;
+    margin: 67px auto 60px;
   }
 }
 @media screen and (max-width: 320px) {
   .footer {
-    margin: 50px auto 60px 19px;
+    width: 282px;
+    margin: 50px auto 60px;
   }
 }

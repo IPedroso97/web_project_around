@@ -13,15 +13,23 @@
     <meta name="keywords" content="Jacques Cousteau Around the U.S." />
   </head>
   <body>
-    <div class="popup popup_opened">
+    <div class="popup">
       <form class="popup__container">
         <h1 class="popup__title">Editar perfil</h1>
         <fieldset class="popup__fieldset">
           <label class="popup__label"
-            ><input class="popup__input" type="text" placeholder="Nome"
+            ><input
+              id="name"
+              class="popup__input"
+              type="text"
+              placeholder="Nome"
           /></label>
           <label class="popup__label"
-            ><input class="popup__input" type="text" placeholder="Sobre mim"
+            ><input
+              id="description"
+              class="popup__input"
+              type="text"
+              placeholder="Sobre mim"
           /></label>
         </fieldset>
         <button class="popup__button">Salvar</button>
@@ -151,5 +159,6 @@
         <p class="footer__copyright">© 2024. Iago Pedroso</p>
       </footer>
     </div>
+    <script src="./index.js"></script>
   </body>
 </html>

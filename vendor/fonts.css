@@ -7,3 +7,9 @@
   src: url(./fonts/Inter_18pt-Bold.ttf);
   font-weight: bold;
 }
+@font-face {
+  font-family: "Inter";
+  src: url(./fonts/Inter_18pt-Black.ttf);
+  font-weight: bold;
+  font-weight: 900;
+}
