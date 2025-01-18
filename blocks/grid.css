@@ -47,3 +47,21 @@
   cursor: url(../images/click-hover.svg), auto;
   opacity: 50%;
 }
+@media screen and (max-width: 768px) {
+  .grid {
+    width: 583px;
+    margin: 50px auto 0;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    border: 2px solid pink;
+  }
+}
+@media screen and (max-width: 320px) {
+  .grid {
+    width: 282px;
+    margin: 36px auto 0;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    row-gap: 20px;
+  }
+}
