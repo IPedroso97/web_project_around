@@ -46,9 +46,6 @@
   cursor: url(../images/click-hover.svg), auto;
   opacity: 50%;
 }
-.grid__button:click {
-  background: url(../images/likeon.svg);
-}
 @media screen and (max-width: 768px) {
   .grid {
     width: 583px;
