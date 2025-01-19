@@ -12,10 +12,11 @@
 @media screen and (max-width: 768px) {
   .header {
     width: 700px;
-    margin: 42px 0 0 50px;
+    margin: 42px auto 50px;
   }
   .header__logo {
     max-width: 150px;
+    margin: 0 auto 0 27px;
   }
 }
 @media screen and (max-width: 320px) {
@@ -26,5 +27,6 @@
   }
   .header__logo {
     width: 126px;
+    margin: 28px auto 0 27px;
   }
 }
